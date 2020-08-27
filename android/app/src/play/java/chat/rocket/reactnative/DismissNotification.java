@@ -1,4 +1,4 @@
-package chat.rocket.reactnative;
+package com.lazy.chat;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

@@ -905,9 +905,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.reactnative;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazy.chat;
 				PRODUCT_NAME = RocketChatRN;
-				PROVISIONING_PROFILE_SPECIFIER = "chat.rocket.reactnative Development";
+				PROVISIONING_PROFILE_SPECIFIER = "com.lazy.chat Development";
 				SWIFT_OBJC_BRIDGING_HEADER = "RocketChatRN-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -958,9 +958,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.reactnative;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazy.chat;
 				PRODUCT_NAME = RocketChatRN;
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore chat.rocket.reactnative";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.lazy.chat";
 				SWIFT_OBJC_BRIDGING_HEADER = "RocketChatRN-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1025,9 +1025,9 @@
 					"$(inherited)",
 					"-DFB_SONARKIT_ENABLED=1",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.reactnative.ShareExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazy.chat.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Development chat.rocket.reactnative.ShareExtension";
+				PROVISIONING_PROFILE_SPECIFIER = "Development com.lazy.chat.ShareExtension";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1090,9 +1090,9 @@
 					"$(inherited)",
 					"-DFB_SONARKIT_ENABLED=1",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.reactnative.ShareExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazy.chat.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "chat.rocket.reactnative.ShareExtension AppStore";
+				PROVISIONING_PROFILE_SPECIFIER = "com.lazy.chat.ShareExtension AppStore";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1121,9 +1121,9 @@
 				MARKETING_VERSION = 4.11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.reactnative.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazy.chat.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "chat.rocket.reactnative.NotificationService Development";
+				PROVISIONING_PROFILE_SPECIFIER = "com.lazy.chat.NotificationService Development";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = "NotificationService/NotificationService-Bridging-Header.h";
@@ -1156,9 +1156,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 4.11.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.reactnative.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazy.chat.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "chat.rocket.reactnative.NotificationService AppStore";
+				PROVISIONING_PROFILE_SPECIFIER = "com.lazy.chat.NotificationService AppStore";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "NotificationService/NotificationService-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
