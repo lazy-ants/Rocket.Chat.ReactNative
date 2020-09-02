@@ -1,35 +1,78 @@
 {
   "project_info": {
-    "project_number": "115198584049",
-    "firebase_url": "https://rocketchat-reactnative-test.firebaseio.com",
-    "project_id": "rocketchat-reactnative-test",
-    "storage_bucket": "rocketchat-reactnative-test.appspot.com"
+    "project_number": "833057781722",
+    "firebase_url": "https://lazy-chat-52e4f.firebaseio.com",
+    "project_id": "lazy-chat-52e4f",
+    "storage_bucket": "lazy-chat-52e4f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:115198584049:android:8be27b1f7c42a2ed",
+        "mobilesdk_app_id": "1:833057781722:android:5a2927dd3f05602cb8b2e3",
         "android_client_info": {
-          "package_name": "chat.rocket.reactnative"
+          "package_name": "com.lazy.chat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "115198584049-ack609b1338b827fta26s9rd2ab1aad5.apps.googleusercontent.com",
+          "client_id": "833057781722-kbk2i61hui8uu3lo8blqfib5c0vp6e7n.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAWwowhAfACHBw3YxmDOXY3QyakgjhJLqc"
+          "current_key": "AIzaSyD6U1c95xzAKdwyIov0Sv_A8DqPuALPBt8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "115198584049-ack609b1338b827fta26s9rd2ab1aad5.apps.googleusercontent.com",
+              "client_id": "833057781722-kbk2i61hui8uu3lo8blqfib5c0vp6e7n.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "833057781722-cnfff68ihn1rslj6ad3p79o2jlllda84.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lazyAnts.chat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833057781722:android:d1745128fe2a1ed3b8b2e3",
+        "android_client_info": {
+          "package_name": "com.lazyAnts.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833057781722-kbk2i61hui8uu3lo8blqfib5c0vp6e7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6U1c95xzAKdwyIov0Sv_A8DqPuALPBt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833057781722-kbk2i61hui8uu3lo8blqfib5c0vp6e7n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "833057781722-cnfff68ihn1rslj6ad3p79o2jlllda84.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lazyAnts.chat"
+              }
             }
           ]
         }

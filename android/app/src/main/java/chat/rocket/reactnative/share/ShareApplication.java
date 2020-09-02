@@ -1,6 +1,6 @@
-package chat.rocket.reactnative.share;
+package com.lazyAnts.chat.share;
 
-import chat.rocket.reactnative.BuildConfig;
+import com.lazyAnts.chat.BuildConfig;
 
 import chat.rocket.SharePackage;
 

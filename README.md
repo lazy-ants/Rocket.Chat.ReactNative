@@ -18,7 +18,7 @@
 </a>
 
 ### Experimental apps
-<a href="https://play.google.com/store/apps/details?id=chat.rocket.reactnative">
+<a href="https://play.google.com/store/apps/details?id=com.lazyAnts.chat">
   <img alt="Download on Google Play" src="https://play.google.com/intl/en_us/badges/images/badge_new.png" height=43>
 </a>
 <a href="https://itunes.apple.com/us/app/rocket-chat-experimental/id1272915472">
@@ -39,7 +39,7 @@ You can signup to our TestFlight builds by accessing these links:
 You can subscribe to Google Play Beta program and download latest versions:
 
 - Official: https://play.google.com/store/apps/details?id=chat.rocket.android
-- Experimental: https://play.google.com/store/apps/details?id=chat.rocket.reactnative
+- Experimental: https://play.google.com/store/apps/details?id=com.lazyAnts.chat
 
 ## Reporting an Issue
 

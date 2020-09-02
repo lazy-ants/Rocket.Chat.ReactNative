@@ -1,4 +1,4 @@
-package chat.rocket.reactnative;
+package com.lazyAnts.chat;
 
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;

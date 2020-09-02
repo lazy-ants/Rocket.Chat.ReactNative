@@ -1,4 +1,4 @@
-package chat.rocket.reactnative;
+package com.lazyAnts.chat;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -114,7 +114,7 @@ public class CustomPushNotification extends PushNotification {
         Ejson ejson = new Gson().fromJson(bundle.getString("ejson", "{}"), Ejson.class);
 
         notification
-            .setContentTitle(title)	
+            .setContentTitle(title)
             .setContentText(message)
             .setContentIntent(intent)
             .setPriority(Notification.PRIORITY_HIGH)
@@ -336,7 +336,7 @@ public class CustomPushNotification extends PushNotification {
         intent.putExtra(NOTIFICATION_ID, notificationId);
 
         PendingIntent dismissPendingIntent = PendingIntent.getBroadcast(mContext, notificationId, intent, 0);
-        
+
         notification.setDeleteIntent(dismissPendingIntent);
     }
 
