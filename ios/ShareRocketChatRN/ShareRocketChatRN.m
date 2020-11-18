@@ -10,7 +10,7 @@
 #import "ReactNativeShareExtension.h"
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
-#import <React/RCTLog.h>
+#import <MMKV/MMKV.h>
 #import <Firebase.h>
 
 #import <React/RCTBridgeDelegate.h>
@@ -28,23 +28,27 @@ RCT_EXPORT_MODULE();
 
 - (UIView*) shareView {
   NSURL *jsCodeLocation;
-  
+
   if(![FIRApp defaultApp]){
     [FIRApp configure];
   }
-  
+
   self.moduleRegistryAdapter = [[UMModuleRegistryAdapter alloc] initWithModuleRegistryProvider:[[UMModuleRegistryProvider alloc] init]];
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
-  
+
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:nil];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
                                                moduleName:@"ShareRocketChatRN"
                                                initialProperties:nil];
   rootView.backgroundColor = nil;
-  
+
   // Uncomment for console output in Xcode console for release mode on device:
   // RCTSetLogThreshold(RCTLogLevelInfo - 1);
-  
+
+  // AppGroup MMKV
+  NSString *groupDir = [[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"AppGroup"]].path;
+  [MMKV initializeMMKV:nil groupDir:groupDir logLevel:MMKVLogNone];
+
   return rootView;
 }
 

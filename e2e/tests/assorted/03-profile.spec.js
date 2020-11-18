@@ -13,7 +13,7 @@ async function waitForToast() {
 	// await expect(element(by.id('toast'))).toBeVisible();
 	// await waitFor(element(by.id('toast'))).toBeNotVisible().withTimeout(10000);
 	// await expect(element(by.id('toast'))).toBeNotVisible();
-	await sleep(1);
+	await sleep(300);
 }
 
 describe('Profile screen', () => {
@@ -56,7 +56,7 @@ describe('Profile screen', () => {
 		it('should have avatar url', async() => {
 			await expect(element(by.id('profile-view-avatar-url'))).toExist();
 		});
-		
+
 		it('should have reset avatar button', async() => {
 			await waitFor(element(by.id('profile-view-reset-avatar'))).toExist().whileElement(by.id('profile-view-list')).scroll(scrollDown, 'down');
 		});
