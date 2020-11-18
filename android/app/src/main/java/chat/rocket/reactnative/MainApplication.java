@@ -19,7 +19,7 @@ import org.unimodules.adapters.react.ReactModuleRegistryProvider;
 import java.util.Arrays;
 import java.util.List;
 
-import chat.rocket.reactnative.generated.BasePackageList;
+import com.lazyAnts.chat.generated.BasePackageList;
 
 public class MainApplication extends Application implements ReactApplication {
 

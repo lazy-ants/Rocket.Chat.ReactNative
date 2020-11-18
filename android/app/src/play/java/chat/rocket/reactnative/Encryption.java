@@ -1,4 +1,4 @@
-package chat.rocket.reactnative;
+package com.lazyAnts.chat;
 
 import android.util.Log;
 import android.util.Base64;
